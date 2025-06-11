@@ -30,6 +30,8 @@ header{
 .titulo-untref{
     display: flex;
     justify-content: space-around;
+    background-color:rgba(255, 255, 255, 0.801);
+    
 }
 
 a{
