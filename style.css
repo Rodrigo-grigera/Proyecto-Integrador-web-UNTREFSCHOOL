@@ -279,7 +279,14 @@ a:hover{
     border-radius: 10px;
     padding-right: 5px;
 }
+@media screen and (max-width: 500px) {
+    .footer{
+        display: flex;
+        flex-flow: column;
+        text-align: justify;
 
+    }
+}
 .contenedor-form{
     display: flex;
     flex-flow: row;
