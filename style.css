@@ -9,7 +9,6 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     font-family: "poppins";
-
 }
 
 header{
@@ -56,7 +55,7 @@ a{
     max-width: 100%;
     box-shadow:0 0 20px 10px  #181823;
     
-    /* box-shadow + border-radius + medidas hace el efecto iluminacion en las imagenes */
+    /* box-shadow + medidas hace el efecto iluminacion en las imagenes */
 
 }
 
@@ -136,7 +135,6 @@ h2{
     width: auto;
     margin-top: 100px;
 }
-
 
 .div-porque{
     display: flex;
@@ -219,6 +217,15 @@ h2{
     margin-top: 100px;
 }
 
+.contenedor-noticias p, .art-quienes p, .art-porque p{
+    background-color:rgb(177 171 171 / 30%);
+    padding: 20px;
+    border-radius: 25px;
+    border-color: rgba(83, 82, 82, 0.3);
+
+    /*parrafo, fondo color transparecia */
+}
+
 .art-noticias{
     display: flex;
     text-align: justify;
@@ -239,7 +246,6 @@ h2{
 
 h1,h2:hover{
     text-shadow: 0 0 10px #FC7300 , 0 0 20px #FC7300;
-    
     /* efecto iluminacion en los titulos */
 }
 
@@ -292,7 +298,6 @@ a:hover{
 }
 
 .formulario{
-
     border: solid;
     display: flex;
     flex-flow: column ;
