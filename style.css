@@ -1,0 +1,323 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    /* background-color: #EFF5F5;
+    width: 100%;
+    margin: 0; */
+
+    margin: 0;
+    background-image: url("./imagenes/fondo2.jpg"); 
+    background-size: contain;
+    background-attachment: fixed; 
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: "poppins";
+
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+/* stycky en el header hace que el nav baje junto con la pagina */
+
+.nav-container{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    background-color: #00425A ;
+    padding: 15px;
+    gap: 25px;
+    box-shadow:0 0 20px 10px #181823 ;
+
+}
+.titulo-untref{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+.nav-container a:hover{
+    color: #EFF5F5;
+}
+
+.form, .home{
+    color: #EFF5F5;
+    border-radius: 10px;
+}
+
+.img-principal {
+    height: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 100%;
+    box-shadow:0 0 20px 10px  #181823;
+    
+    /* box-shadow + border-radius + medidas hace el efecto iluminacion en las imagenes */
+
+}
+
+.div-imagenPrincipal{
+    display: flex;  
+    justify-content: center;
+    flex-flow: wrap;
+
+}
+@media screen and (max-width: 700px) {
+    .nav-container{
+    flex-flow: column;
+    justify-content: center;
+    background-color: #00425A ;
+    padding: 10px;
+    gap: 15px;
+    
+} 
+
+}
+/* Finaliza nav + imagen principal (titulo) */
+
+
+/* comiendo main- seccion 1 */
+
+.art-quienes{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: auto;
+    margin-top: 100px;
+}
+
+
+.div-interno{
+    display: flex;
+    flex-flow: row;
+    margin: 40px;
+    gap: 40px;
+    max-width: 100%;
+    text-align: justify;
+}
+h2{
+    font-size: x-large;
+    margin-top: 40px;
+    
+}
+.img-2{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0 0 20px 10px  #FC7300;
+}
+
+@media screen and (max-width: 850px) {
+
+    .div-interno{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-align:left;
+
+    }
+
+}
+
+/* Comienza  seccion 2  */
+
+.art-porque{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    margin-top: 100px;
+}
+
+
+.div-porque{
+    display: flex;
+    flex-flow: row-reverse;
+    margin: 60px;
+    gap: 40px;
+    max-width: 100%;
+    text-align: justify;
+    
+}
+
+.img-3{
+    max-width: 400px;
+    width: 100%;
+    border-radius: 20px;
+    height: auto;
+    box-shadow: 0 0 20px 10px  #FC7300;
+    
+
+}
+
+@media screen and (max-width: 900px) {
+
+    .div-porque{
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        padding: 20px 20px;
+        text-align:left;
+    }
+
+}
+/* Comieza seccion 3 */
+
+.contenedor-cartas{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    max-width: 100%;
+    margin-top: 100px;
+    padding: 0 20px;
+}
+.carta{
+    background-color:#1F8A70;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    flex-basis: 80px;
+    box-shadow:0 0 20px 10px  #181823;
+    
+}
+.carta img{
+    border: solid 4px #181823 ;
+    max-width: 200px;
+    border-radius: 40px;
+    height: auto;
+    box-shadow:0 0 20px 10px  #181823;
+
+}
+
+.carta p{
+    text-align: center;
+    height: auto;
+    font-family:'Courier New', Courier, monospace;  
+}
+
+.div-propuesta{
+    text-align: center;
+    margin: 40px;
+    
+}
+
+.contenedor-noticias{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.art-noticias{
+    display: flex;
+    text-align: justify;
+    max-width: 80%;
+    padding: 20px;
+    margin: 20px;
+    gap: 50px;
+}
+
+@media screen and (max-width: 600px) {
+    .art-noticias{
+        display: flex;
+        flex-flow: column;
+        text-align: justify;
+
+    }
+}
+
+h1,h2:hover{
+    text-shadow: 0 0 10px #FC7300 , 0 0 20px #FC7300;
+    
+    /* efecto iluminacion en los titulos */
+}
+
+.footer{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 30px;
+}
+.redes{
+    display: flex;
+    flex-flow: column ;
+    gap: 15px;
+}
+a:hover{
+    color: #00425A;
+    box-shadow:0 0 20px 10px #00425A;  ;
+    border-radius: 5px;
+
+}
+
+.map img{
+    height: 100px;
+    border-radius: 7px;
+}
+.map{
+    justify-items: center;
+}
+
+.redes img{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+.contenedor-form{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    margin: 20px;
+    
+}
+
+.formulario{
+
+    border: solid;
+    display: flex;
+    flex-flow: column ;
+    gap: 40px;
+    padding: 30px;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    max-width:400px;
+    align-items: center;
+    background-color: #a1e0d1;
+    box-shadow:0 0 20px 10px #181823 ;
+    font-size: larger;
+}
+
+.label{
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+.text-comen{
+    display: flex;
+    max-width: 300px;
+}
+
+
+
+@media screen and (max-width: 400px) {
+    .img-mimo{
+        display: none
+    };
+} 
