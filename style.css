@@ -275,7 +275,7 @@ a:hover{
     border-radius: 10px;
     padding-right: 5px;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .footer{
         display: flex;
         flex-flow: column;
@@ -319,7 +319,7 @@ a:hover{
 
 
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 400px) {
     .img-mimo{
         display: none
     };
