@@ -316,7 +316,7 @@ a:hover{
 
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
     .img-mimo{
         display: none
     };
