@@ -17,6 +17,15 @@ header{
 }
 /* stycky en el header hace que el nav baje junto con la pagina */
 
+.contenedor-noticias p, .art-quienes p, .art-porque p{
+    background-color:rgb(177 171 171 / 30%);
+    padding: 20px;
+    border-radius: 25px;
+    border-color: rgba(83, 82, 82, 0.3);
+
+    /*parrafo, fondo color transparecia */
+}
+
 .nav-container{
     display: flex;
     flex-flow: wrap;
@@ -299,6 +308,7 @@ a:hover{
     
 }
 
+
 .formulario{
     border: solid;
     display: flex;
@@ -309,7 +319,7 @@ a:hover{
     border-radius: 8px;
     max-width:400px;
     align-items: center;
-    background-color: #a1e0d1;
+    background-color: #106ce6a9;
     box-shadow:0 0 20px 10px #181823 ;
     font-size: larger;
 }
