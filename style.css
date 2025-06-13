@@ -74,7 +74,7 @@ a{
     flex-flow: wrap;
 
 }
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
     .nav-container{
     flex-flow: column;
     justify-content: center;
