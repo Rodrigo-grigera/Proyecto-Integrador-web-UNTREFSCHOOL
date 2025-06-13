@@ -247,8 +247,7 @@ h2{
     .art-noticias{
         display: flex;
         flex-flow: column;
-        text-align: justify;
-
+        text-align: start;
     }
 }
 
